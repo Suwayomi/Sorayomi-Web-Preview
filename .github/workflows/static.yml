@@ -37,6 +37,8 @@ jobs:
         with:
           # Upload entire repository
           path: '.'
+          destination_dir: './Sorayomi-Web-Preview'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
+
